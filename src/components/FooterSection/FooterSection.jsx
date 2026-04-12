@@ -4,7 +4,7 @@ import { FaYoutube, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 const FooterSection = () => {
   return (
     <div className="bg-[#0b1a2b] text-white py-16 px-10">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-6 gap-10">
 
         <div className="md:col-span-2">
           <h1 className="text-3xl font-bold mb-4">DigiTools</h1>
