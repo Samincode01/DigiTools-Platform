@@ -28,10 +28,10 @@ const PricingSection = () => {
           </h1>
 
           <ul className="text-gray-600 space-y-2 mb-8">
-            <li><FaCheck /> Access to 10 free tools</li>
-            <li><FaCheck /> Basic templates</li>
-            <li><FaCheck /> Community support</li>
-            <li><FaCheck /> 1 project per month</li>
+            <li className="flex items-center gap-2"><FaCheck />Access to 10 free tools</li>
+            <li className="flex items-center gap-2"><FaCheck />Basic templates</li>
+            <li className="flex items-center gap-2"><FaCheck />Community support</li>
+            <li className="flex items-center gap-2"><FaCheck />1 project per month</li>
           </ul>
 
           <button className="btn w-full rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white border-none">
@@ -57,12 +57,12 @@ const PricingSection = () => {
           </h1>
 
           <ul className="space-y-2 mb-8 text-sm">
-            <li><FaCheck/> Access to all premium tools</li>
-            <li><FaCheck/> Unlimited templates</li>
-            <li><FaCheck/> Priority support</li>
-            <li><FaCheck/> Unlimited projects</li>
-            <li><FaCheck/> Cloud sync</li>
-            <li><FaCheck/> Advanced analytics</li>
+            <li className="flex items-center gap-2"><FaCheck/> Access to all premium tools</li>
+            <li className="flex items-center gap-2"><FaCheck/> Unlimited templates</li>
+            <li className="flex items-center gap-2"><FaCheck/> Priority support</li>
+            <li className="flex items-center gap-2"><FaCheck/> Unlimited projects</li>
+            <li className="flex items-center gap-2"><FaCheck/> Cloud sync</li>
+            <li className="flex items-center gap-2"><FaCheck/> Advanced analytics</li>
           </ul>
 
           <button className="btn w-full rounded-full bg-white text-purple-600 border-none">
@@ -82,12 +82,12 @@ const PricingSection = () => {
           </h1>
 
           <ul className="text-gray-600 space-y-2 mb-8">
-            <li><FaCheck /> Everything in Pro</li>
-            <li><FaCheck /> Team collaboration</li>
-            <li><FaCheck /> Custom integrations</li>
-            <li><FaCheck /> Dedicated support</li>
-            <li><FaCheck /> SLA guarantee</li>
-            <li><FaCheck /> Custom branding</li>
+            <li className="flex items-center gap-2"><FaCheck /> Everything in Pro</li>
+            <li className="flex items-center gap-2"><FaCheck /> Team collaboration</li>
+            <li className="flex items-center gap-2"><FaCheck /> Custom integrations</li>
+            <li className="flex items-center gap-2"><FaCheck /> Dedicated support</li>
+            <li className="flex items-center gap-2"><FaCheck /> SLA guarantee</li>
+            <li className="flex items-center gap-2"><FaCheck /> Custom branding</li>
           </ul>
 
           <button className="btn w-full rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white border-none">

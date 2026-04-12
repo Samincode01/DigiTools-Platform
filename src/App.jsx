@@ -5,6 +5,8 @@ import HeroSectionnew from './components/NavBar/HeroSectionnew/HeroSectionnew'
 import RatingSection from './components/NavBar/RatingSection/RatingSection'
 import GetStarted from './components/GetStarted/GetStarted'
 import PricingSection from './components/PricingSection/PricingSection'
+import TransformSection from './components/TransformSection/TransformSection'
+import FooterSection from './components/FooterSection/FooterSection'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
    <RatingSection></RatingSection>
    <GetStarted></GetStarted>
    <PricingSection></PricingSection>
+   <TransformSection></TransformSection>
+   <FooterSection></FooterSection>
    </div>
 
    </>
