@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 
 const PricingSection = () => {
   return (
@@ -27,10 +28,10 @@ const PricingSection = () => {
           </h1>
 
           <ul className="text-gray-600 space-y-2 mb-8">
-            <li>✔ Access to 10 free tools</li>
-            <li>✔ Basic templates</li>
-            <li>✔ Community support</li>
-            <li>✔ 1 project per month</li>
+            <li><FaCheck /> Access to 10 free tools</li>
+            <li><FaCheck /> Basic templates</li>
+            <li><FaCheck /> Community support</li>
+            <li><FaCheck /> 1 project per month</li>
           </ul>
 
           <button className="btn w-full rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white border-none">
@@ -56,12 +57,12 @@ const PricingSection = () => {
           </h1>
 
           <ul className="space-y-2 mb-8 text-sm">
-            <li>✔ Access to all premium tools</li>
-            <li>✔ Unlimited templates</li>
-            <li>✔ Priority support</li>
-            <li>✔ Unlimited projects</li>
-            <li>✔ Cloud sync</li>
-            <li>✔ Advanced analytics</li>
+            <li><FaCheck/> Access to all premium tools</li>
+            <li><FaCheck/> Unlimited templates</li>
+            <li><FaCheck/> Priority support</li>
+            <li><FaCheck/> Unlimited projects</li>
+            <li><FaCheck/> Cloud sync</li>
+            <li><FaCheck/> Advanced analytics</li>
           </ul>
 
           <button className="btn w-full rounded-full bg-white text-purple-600 border-none">
@@ -81,12 +82,12 @@ const PricingSection = () => {
           </h1>
 
           <ul className="text-gray-600 space-y-2 mb-8">
-            <li>✔ Everything in Pro</li>
-            <li>✔ Team collaboration</li>
-            <li>✔ Custom integrations</li>
-            <li>✔ Dedicated support</li>
-            <li>✔ SLA guarantee</li>
-            <li>✔ Custom branding</li>
+            <li><FaCheck /> Everything in Pro</li>
+            <li><FaCheck /> Team collaboration</li>
+            <li><FaCheck /> Custom integrations</li>
+            <li><FaCheck /> Dedicated support</li>
+            <li><FaCheck /> SLA guarantee</li>
+            <li><FaCheck /> Custom branding</li>
           </ul>
 
           <button className="btn w-full rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white border-none">
