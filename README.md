@@ -1,16 +1,50 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern, responsive marketplace interface built with React for showcasing digital products. It allows users to browse tools, add items to a cart, remove them, and complete a simple checkout flow with instant feedback.
 
-Currently, two official plugins are available:
+---
+Live Link: https://lovely-paprenjak-a76b20.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
 
-## React Compiler
+- React.js  
+- Tailwind CSS  
+- DaisyUI  
+- JavaScript (ES6+)  
+- React-Toastify  
+- Local JSON-based product data  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Toggle between **Products** and **Cart** view with a smooth user experience  
+- Real-time cart updates with item count displayed in the navbar  
+- Add to cart and remove items functionality  
+- Automatic total price calculation  
+- Checkout button clears the cart with toast notification feedback  
+- Fully responsive design across all devices  
+
+---
+
+## 📦 Sections Included
+
+- Hero Section  
+- Statistics / Rating Section  
+- Product Listing  
+- Getting Started Steps  
+- Pricing Section  
+- Call-to-Action Section  
+- Footer  
+
+---
+
+## ⚡ Functionality Overview
+
+- Users can browse products and add them to the cart  
+- Cart state is shared across components for real-time updates  
+- Navbar displays live cart count  
+- Cart view shows selected items with total price  
+- Checkout clears the cart and provides instant feedback  
+
+---
